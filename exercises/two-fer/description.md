@@ -3,10 +3,14 @@
 Given a name, return a string with the message:
 
 ```text
-One for X, one for me.
+One for [name], one for me.
 ```
 
-Where X is the given name.
+Where "name" is the given name. For example: If given "Bob" return:
+
+```text
+One for Bob, one for me.
+```
 
 However, if the name is missing, return the string:
 
